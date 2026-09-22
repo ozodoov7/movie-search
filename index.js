@@ -22,7 +22,7 @@ const info=document.querySelector(".append")
 
                     const movieCard = `
                         <div class="movie">
-                            <img src="${imgBaseUrl}${element.poster_path}" alt="${element.original_title || 'Movie'}">
+                            <img src="${imgBaseUrl}${element.backdrop_path}" alt="${element.original_title || 'Movie'}">
                             <div class="movie-info">
                                 <h3>${element.title}</h3>
                                 <span class="orange">${element.vote_average.toFixed(2)}</span>
@@ -50,7 +50,7 @@ const info=document.querySelector(".append")
 
                 const movieCard = `
                         <div class="movie">
-                            <img src="${imgBaseUrl}${element.poster_path}" alt="${element.original_title || 'Movie'}">
+                            <img src="${imgBaseUrl}${element.backdrop_path}" alt="${element.original_title || 'Movie'}">
                             <div class="movie-info">
                                 <h3>${element.title}</h3>
                                 <span class="orange">${element.vote_average.toFixed(2)}</span>
@@ -76,7 +76,7 @@ const info=document.querySelector(".append")
 
                 const movieCard = `
                         <div class="movie">
-                            <img src="${imgBaseUrl}${element.poster_path}" alt="${element.original_title || 'Movie'}">
+                            <img src="${imgBaseUrl}${element.backdrop_path}" alt="${element.original_title || 'Movie'}">
                             <div class="movie-info">
                                 <h3>${element.title}</h3>
                                 <span class="orange">${element.vote_average.toFixed(2)}</span>
